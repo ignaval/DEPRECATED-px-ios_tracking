@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files = ['MercadoPagoPXTracking/*']
+  s.exclude_files = 'MercadoPagoPXTracking/Info.plist'
 
   s.swift_version = '4.0'
 
