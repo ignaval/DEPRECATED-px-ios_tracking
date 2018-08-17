@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235470F42127468D0039611B /* mpx_tracking_settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 235470F32127468D0039611B /* mpx_tracking_settings.plist */; };
 		4B473B371FA7939300762D62 /* TrackerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B473B361FA7939300762D62 /* TrackerTest.swift */; };
 		4B473B381FA793C100762D62 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606ECE1FA75A74006277D7 /* String+Additions.swift */; };
 		4B473B391FA793C400762D62 /* TrackingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606ED21FA75EC5006277D7 /* TrackingUtil.swift */; };
@@ -18,7 +19,6 @@
 		4B473B411FA793D900762D62 /* MPXReach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606EC61FA75984006277D7 /* MPXReach.swift */; };
 		4B473B421FA793DC00762D62 /* MPTFingerPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606EC01FA75978006277D7 /* MPTFingerPrint.swift */; };
 		4B473B431FA793DF00762D62 /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB380C1FA777C4005127BE /* Array+Additions.swift */; };
-		4B473B441FA7954300762D62 /* mpx_tracking_settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B606ED01FA75CA9006277D7 /* mpx_tracking_settings.plist */; };
 		4B473B461FA79ADC00762D62 /* MPXTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606EC21FA7597A006277D7 /* MPXTracker.swift */; };
 		4B606EA61FA758E4006277D7 /* MercadoPagoPXTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B606E9C1FA758E4006277D7 /* MercadoPagoPXTracking.framework */; };
 		4B606EAB1FA758E4006277D7 /* MercadoPagoPXTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606EAA1FA758E4006277D7 /* MercadoPagoPXTrackingTests.swift */; };
@@ -31,7 +31,6 @@
 		4B606ECC1FA75986006277D7 /* TrackStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606EC51FA7597F006277D7 /* TrackStorageManager.swift */; };
 		4B606ECD1FA75986006277D7 /* MPXReach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606EC61FA75984006277D7 /* MPXReach.swift */; };
 		4B606ECF1FA75A74006277D7 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606ECE1FA75A74006277D7 /* String+Additions.swift */; };
-		4B606ED11FA75CA9006277D7 /* mpx_tracking_settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B606ED01FA75CA9006277D7 /* mpx_tracking_settings.plist */; };
 		4B606ED31FA75EC5006277D7 /* TrackingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606ED21FA75EC5006277D7 /* TrackingUtil.swift */; };
 		4B606ED91FA7757D006277D7 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B606ED81FA7757D006277D7 /* JSONHandler.swift */; };
 		4BB3ECED1FB37EE600AAFD38 /* PXTrackingURLConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3ECEC1FB37EE600AAFD38 /* PXTrackingURLConfigs.swift */; };
@@ -52,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235470F32127468D0039611B /* mpx_tracking_settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mpx_tracking_settings.plist; sourceTree = "<group>"; };
 		4B473B361FA7939300762D62 /* TrackerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerTest.swift; sourceTree = "<group>"; };
 		4B606E9C1FA758E4006277D7 /* MercadoPagoPXTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MercadoPagoPXTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B606E9F1FA758E4006277D7 /* MercadoPagoPXTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MercadoPagoPXTracking.h; sourceTree = "<group>"; };
@@ -67,7 +67,6 @@
 		4B606EC51FA7597F006277D7 /* TrackStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackStorageManager.swift; sourceTree = "<group>"; };
 		4B606EC61FA75984006277D7 /* MPXReach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPXReach.swift; sourceTree = "<group>"; };
 		4B606ECE1FA75A74006277D7 /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
-		4B606ED01FA75CA9006277D7 /* mpx_tracking_settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mpx_tracking_settings.plist; sourceTree = "<group>"; };
 		4B606ED21FA75EC5006277D7 /* TrackingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingUtil.swift; sourceTree = "<group>"; };
 		4B606ED81FA7757D006277D7 /* JSONHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
 		4BB3ECEC1FB37EE600AAFD38 /* PXTrackingURLConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXTrackingURLConfigs.swift; sourceTree = "<group>"; };
@@ -95,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235470F22127468D0039611B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				235470F32127468D0039611B /* mpx_tracking_settings.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		4B606E921FA758E4006277D7 = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +123,8 @@
 		4B606E9E1FA758E4006277D7 /* MercadoPagoPXTracking */ = {
 			isa = PBXGroup;
 			children = (
+				235470F22127468D0039611B /* Config */,
 				4B606ED21FA75EC5006277D7 /* TrackingUtil.swift */,
-				4B606ED01FA75CA9006277D7 /* mpx_tracking_settings.plist */,
 				4B606ECE1FA75A74006277D7 /* String+Additions.swift */,
 				4BEB380C1FA777C4005127BE /* Array+Additions.swift */,
 				4B606EC01FA75978006277D7 /* MPTFingerPrint.swift */,
@@ -242,7 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B606ED11FA75CA9006277D7 /* mpx_tracking_settings.plist in Resources */,
+				235470F42127468D0039611B /* mpx_tracking_settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B473B441FA7954300762D62 /* mpx_tracking_settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

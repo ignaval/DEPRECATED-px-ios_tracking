@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
+  s.resources = ['MercadoPagoPXTracking/Config/*.plist']
   s.source_files = ['MercadoPagoPXTracking/**/**/**.{h,m,swift}']
 
   s.pod_target_xcconfig = {
