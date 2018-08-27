@@ -97,7 +97,7 @@ extension TrackStorageManager {
     private static let kMaxBatchSize = "max_batch_size"
     private static let kMaxAgeing = "max_ageing_seconds"
     private static let kMaxLifetime = "max_lifetime_days"
-    static let SCREEN_TRACK_INFO_ARRAY_KEY = "screens-tracks-info"
+    static let SCREEN_TRACK_INFO_ARRAY_KEY = "screens-tracks-info-v4"
     static var SETTING_MAX_BATCH_SIZE: Int {
         get {
             guard let trackiSettings: [String:Any] = Utils.getSetting(identifier: MPXTracker.kTrackingSettings) else {
