@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
   s.resources = ['MercadoPagoPXTracking/Config/*.plist']
   s.source_files = ['MercadoPagoPXTracking/**/**/**.{h,m,swift}']
 
-  s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '3.0.1'
-  }
+  s.swift_version = '3.0'
 
 end
