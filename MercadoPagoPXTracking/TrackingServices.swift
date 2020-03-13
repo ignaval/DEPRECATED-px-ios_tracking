@@ -34,7 +34,9 @@ class TrackingServices: NSObject {
         }
         let session = URLSession.shared
         let task = session.dataTask(with: request as URLRequest, completionHandler: {data, response, error -> Void in
-            UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            DispatchQueue.main.async {
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            }
             if error == nil {
                 do {
                     if let response = response as? HTTPURLResponse {
